@@ -38,7 +38,7 @@ def prime?(number)
  end
 end 
 
-#sample tests
+#sample tests - TESTED AND WORKS FOR SMALLER NUMBERS
 #prime?(13)
 #prime?(1323)
 
