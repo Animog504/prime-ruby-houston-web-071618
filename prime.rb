@@ -39,8 +39,8 @@ def prime?(number)
 end 
 
 #sample tests
-prime?(13)
-prime?(1323)
+#prime?(13)
+#prime?(1323)
 
 
 
