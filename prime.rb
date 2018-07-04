@@ -20,7 +20,7 @@ def prime?(number)
 
   for counter in myArray do
     mod = number%counter
-    puts "#{number} % #{counter} is #{mod}."  #just for testing purposes
+    #puts "#{number} % #{counter} is #{mod}."  #just for testing purposes
     if mod == 0 
       if counter == number 
           puts "number is Prime!"
