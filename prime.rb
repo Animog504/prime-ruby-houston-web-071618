@@ -23,6 +23,7 @@ def prime?(number)
     puts "#{number} % #{counter} is #{mod}."  #just for testing purposes
     if mod == 0 
       if counter == number 
+          puts "number is Prime!"
         return true
         # expected
       else 
@@ -34,7 +35,8 @@ def prime?(number)
   else
     puts "That is not a valid value!"
     return false
-end
+ end
+end 
 
 
 
@@ -54,4 +56,4 @@ end
 #    puts "That isn't a valid entry"
 #  end
 #-----------
-end 
+ 
